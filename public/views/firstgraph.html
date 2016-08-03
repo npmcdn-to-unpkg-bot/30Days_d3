@@ -1,12 +1,121 @@
 <div class="container">
   <!-- Using controller as 'one' -->
-  <h1>I'll be a graph someday!!!</h1>
-  <section id="chart">
-    <div class="item">Colin</div>
-    <div class="item">Keith</div>
-    <div class="item">Sean</div>
-    <div class="item">Hayoung</div>
-    <div class="item">Erin</div>
-    <div class="item">Jane</div>
-  </section>
+
+
+  <!-- This table would represent how someone rated The Problem at what time
+  on which days to self-check for periods of vulnerability -->
+
+  <!-- Ratings on a scale of 0-10 -->
+
+  <div id="legend" class="rbow2">
+    <ul>
+      <li class="q0-11"></li>
+      <li class="q1-11"></li>
+      <li class="q2-11"></li>
+      <li class="q3-11"></li>
+      <li class="q4-11"></li>
+      <li class="q5-11"></li>
+      <li class="q6-11"></li>
+      <li class="q7-11"></li>
+      <li class="q8-11"></li>
+      <li class="q9-11"></li>
+      <li class="q10-11"></li>
+    </ul>
+    <p class="less">less problematic</p>
+    <p class="more">more problematic</p>
+  </div>
+
+  <table id="tiles" class="back">
+    <tr>
+      <th><div></div></th>
+      <th class="h0">12a</th>
+      <th class="h1">1a</th>
+      <th class="h2">2a</th>
+      <th class="h3">3a</th>
+      <th class="h4">4a</th>
+      <th class="h5">5a</th>
+      <th class="h6">6a</th>
+      <th class="h7">7a</th>
+      <th class="h8">8a</th>
+      <th class="h9">9a</th>
+      <th class="h10">10a</th>
+      <th class="h11">11a</th>
+      <th class="h12">12p</th>
+      <th class="h13">1p</th>
+      <th class="h14">2p</th>
+      <th class="h15">3p</th>
+      <th class="h16">4p</th>
+      <th class="h17">5p</th>
+      <th class="h18">6p</th>
+      <th class="h19">7p</th>
+      <th class="h20">8p</th>
+      <th class="h21">9p</th>
+      <th class="h22">10p</th>
+      <th class="h23">11p</th>
+    </tr>
+    <tr class="d0">
+      <th>Mon</th>
+      <td id="d0h0" class="d0 h0">
+        <div class="tile" style="transform: rotateY(180deg);">
+          <div class="face front"></div>
+          <div class="face back q4-11"></div>
+        </div>
+      </td>
+      <td id="d0h1" class="d0 h1">
+        <div class="tile" style="transform: rotateY(180deg);">
+          <div class="face front"></div>
+          <div class="face back q3-11"></div>
+        </div>
+      </td>
+      <td id="d0h2" class="d0 h2">
+        <div class="tile" style="transform: rotateY(180deg);">
+          <div class="face front"></div>
+          <div class="face back q2-11">
+            <!-- The q2-11 indicates the color scale based on frequecy of checkins  -->
+          </div>
+        </div>
+      </td>
+      <!-- ... -->
+    </tr>
+
+    <tr class="d1">
+      <th>Tues</th>
+      <td id="d0h0" class="d0 h0">
+        <div class="tile" style="transform: rotateY(180deg);">
+          <div class="face front"></div>
+          <div class="face back q4-11"></div>
+        </div>
+      </td>
+      <td id="d0h1" class="d0 h1">
+        <div class="tile" style="transform: rotateY(180deg);">
+          <div class="face front"></div>
+          <div class="face back q3-11"></div>
+        </div>
+      </td>
+      <td id="d0h2" class="d0 h2">
+        <div class="tile" style="transform: rotateY(180deg);">
+          <div class="face front"></div>
+          <div class="face back q2-11">
+            <!-- The q2-11 indicates the color scale based on frequecy of checkins  -->
+          </div>
+        </div>
+      </td>
+      <!-- ... -->
+    </tr>
+
+<div id="hourly_values">
+  <div class="svg">
+    <svg class="chart" width="300" height= "170">
+      <rect x="" y="" height="" width="" class="hr1"></rect>
+      <rect x="" y="" height="" width="" class="hr1"></rect>
+      ....
+      <text class="visible hr0" x="" y="" text-anchor="left">12a</text>
+      <text class="hidden hr1" x="" y="" text-anchor="left">1a</text>
+      <text class="hidden hr2" x="" y="" text-anchor="left">2a</text>
+      <text class="visible hr3" x="" y="" text-anchor="left">3a</text>
+      ...
+    </svg>
+  </div>
+</div>
+
 </div>

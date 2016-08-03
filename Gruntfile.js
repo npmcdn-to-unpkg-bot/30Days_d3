@@ -23,7 +23,7 @@ module.exports = function(grunt) {
       //    mangle: false
       //  },
        files: {
-         'public/assets/client.min.js': ['client/d3app.module.js', 'client/d3app.config.js', 'client/FirstGraphController.js']
+         'public/assets/client.min.js': ['client/d3app.module.js', 'client/d3.module.js', 'client/d3app.config.js', 'client/d3app.directives.js', 'client/FirstGraphController.js']
        }
      }
    }
