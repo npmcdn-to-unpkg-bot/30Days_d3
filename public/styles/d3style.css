@@ -55,6 +55,55 @@ li {
   background-color: hsla(51, 100%, 50%, 1);
 }
 
+
+.q0-1{
+  background-color: hsla(234, 49%, 19%, .0);
+}
+
+.q1-1{
+  background-color: hsla(234, 49%, 19%, .1);
+}
+
+.q2-1{
+  background-color: hsla(234, 49%, 19%, .2);
+}
+
+.q3-1{
+  background-color: hsla(234, 49%, 19%, .3);
+}
+
+.q4-1{
+  background-color: hsla(234, 49%, 19%, .4);
+}
+
+.q5-1{
+  background-color: hsla(234, 49%, 19%, .5);
+}
+
+.q6-1{
+  background-color: hsla(234, 49%, 19%, .6);
+}
+
+.q7-1{
+  background-color: hsla(234, 49%, 19%, .7);
+}
+
+.q8-1{
+  background-color: hsla(234, 49%, 19%, .8);
+}
+
+.q9-1{
+  background-color: hsla(234, 49%, 19%, .9);
+}
+
+.q10-1{
+  background-color: hsla(234, 49%, 19%, 1);
+}
+
+
+
+
+
 .less, .more {
   display: inline-block;
 }
