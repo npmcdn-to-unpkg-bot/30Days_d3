@@ -13,7 +13,7 @@ module.exports = function(grunt) {
       main: {
         files: [
           // makes all src relative to cwd
-          {expand: true, cwd: 'node_modules', src: ['angular/**', 'd3/**', 'angular-route/**'], dest: 'public/vendors/'},
+          {expand: true, cwd: 'node_modules', src: ['angular/**', 'd3/**', 'd3-**/**', 'angular-route/**'], dest: 'public/vendors/'},
         ],
       },
     },
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
       //    mangle: false
       //  },
        files: {
-         'public/assets/client.min.js': ['client/d3app.module.js', 'client/d3.module.js', 'client/d3app.config.js', 'client/d3app.directives.js', 'client/FirstGraphController.js']
+         'public/assets/client.min.js': ['client/d3app.module.js', 'client/d3app.config.js', 'client/d3app.directiveTwo.js', 'client/SecondGraphController.js']
        }
      }
    }
